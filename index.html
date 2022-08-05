@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+    <div class="content">
+        <div class="logo"> <img src="logo.svg" alt="logo"/></div>
+        <div class="image"></div>
+        <div class="text">Start for free & Get <br> Attractive offers today!</div>
+    </div>
+
+        <form id="form">
+            
+            <div class="social">
+                <div class="title">Get Started</div>
+                <div class="question">Already Have an Account? <br>
+                <span>Sign In</span>
+            </div>
+
+            <div class="btn">
+                <div class="btn-1"><img src="https://img.icons8.com/color/30/000000/google-logo.png"/>
+                Sign Up
+                </div>
+                <div class="btn-2"><img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png"/> 
+                Sign Up
+                </div>
+            </div>
+
+            <div class="or">Or</div>
+            </div>
+
+            <!-- * username input  -->
+            <div>
+                <label for="username">User Name</label>
+                <i class="fa fa-user"></i>
+                <input type="text" name="username" id="username" placeholder="Diksha Jain">
+                <i class="fa fa-exclamation-circle failure-icon"></i>
+                <i class="fa fa-check-circle-o success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <!-- * email input  -->
+            <div>
+                <label for="email">Email</label>
+                <i class="fa fa-envelope-o"></i>
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+                <i class="fa fa-exclamation-circle failure-icon"></i>
+                <i class="fa fa-check-circle-o success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <!-- * password input  -->
+            <div>
+                <label for="password">Password</label>
+                <i class="fa fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Password here">
+                <i class="fa fa-exclamation-circle failure-icon"></i>
+                <i class="fa fa-check-circle-o success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
